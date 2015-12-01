@@ -37,7 +37,7 @@ public class DataSetMetaDataConverter implements Converter<DataSetMetaData> {
 			Map<String, String> columnMap = new HashMap<String, String>();
 			columnMap.put("name", column.getName());
 			columnMap.put("label", column.getLabel());
-			columnMap.put("datatype", column.getDataType().getName());
+			columnMap.put("datatype", column.getDataType() == null ? "null" : column.getDataType().getName());
 			columns.add(columnMap);
 		}
 
