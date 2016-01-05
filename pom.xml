@@ -3,7 +3,7 @@
 
 	<groupId>org.openmrs.module</groupId>
 	<artifactId>reportingrest</artifactId>
-	<version>1.5</version>
+	<version>1.5.1</version>
 	<packaging>pom</packaging>
 	<name>Reporting REST</name>
 	<description>Parent project for reportingrest</description>
